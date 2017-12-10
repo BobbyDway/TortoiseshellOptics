@@ -1,0 +1,165 @@
+* {
+  /*font-family: Helvetica;*/
+  font-size: 18px;
+  line-height: 1.4rem;
+}
+.top {
+  background-image: url(../glasses-bg.png);
+  height: 31rem;
+  background-size: cover;
+  background-position: left;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+}
+.header {
+  width: 960px;
+  margin-top: 1rem;
+  background-color: cadetblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.caption {
+  background-color: white;
+  margin-top: 10rem;
+  margin-left: 575px;
+}
+.caption h1 {
+  line-height: 1.2rem;
+  font-size: 2rem;
+  font-family: Helvetica;
+  font-weight: bold;
+  padding: 1.5rem 5rem;
+}
+.logo {
+  align-content: flex-start;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.logo img {
+  height: 1.5rem;
+  margin-left: 2rem;
+  margin-right: 1rem;
+}
+.logo h3 {
+  font-size: 1rem;
+  font-family: Helvetica;
+  color: white;
+}
+.nav {
+  align-content: flex-end;
+}
+.nav ul {
+  display: flex;
+  flex-direction: row;
+}
+.nav li {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-right: 2rem;
+  font-size: 1rem;
+  font-family: Helvetica;
+  color: white;
+}
+.bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.services {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 8rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  width: 960px;
+}
+.services p {
+  font-family: Helvetica;
+}
+.exams {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  width: 7rem;
+}
+.exams img {
+  width: 3.5rem;
+}
+.fittings {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  width: 5rem;
+  margin-left: 6rem;
+  margin-right: 6rem;
+}
+.fittings img {
+  width: 5rem;
+}
+.truck {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  width: 5rem;
+}
+.truck img {
+  width: 5rem;
+}
+.info {
+  display: flex;
+  justify-content: center;
+  width: 960px;
+  margin-bottom: 5rem;
+}
+.philo {
+  width: 35%;
+  margin-right: 5%;
+}
+.aptt {
+  width: 35%;
+}
+.info h2 {
+  width: 10rem;
+  background-color: cadetblue;
+  font-weight: bold;
+  font-size: 1rem;
+  font-family: Helvetica;
+  color: white;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1.25rem;
+  margin-bottom: 1rem;
+}
+.info p {
+  font-family: Helvetica;
+}
+.footer {
+  width: 960px;
+  background-color: azure;
+}
+.end {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+.end img {
+  height: 1.5rem;
+  margin-right: 1rem;
+  margin-left: 4rem;
+}
+.end h3 {
+  font-family: Helvetica;
+}
