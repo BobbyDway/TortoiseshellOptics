@@ -195,3 +195,80 @@
     width: 100%;
   }
 }
+@media only screen and (max-width: 480px) {
+  .header {
+    width: 100%;
+    margin-top: 0rem;
+  }
+  .top {
+    height: 17rem;
+    align-items: flex-end;
+    background-position: 20%;
+  }
+  .caption {
+    margin-top: 9rem;
+    margin-right: 0rem;
+    width: 100%;
+    justify-content: center;
+  }
+  .caption h1 {
+    font-size: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .bottom p {
+    font-size: 0.77rem;
+  }
+  .services {
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+    margin-top: 3.77rem;
+    margin-bottom: 3.77rem;
+  }
+  .exams {
+    margin-bottom: 1.54rem;
+  }
+  .truck {
+    margin-top: 1.54rem;
+  }
+  .info {
+    flex-direction: column;
+    align-items: center;
+  }
+  .philo {
+    margin-right: 0rem;
+    width: 100%;
+  }
+  .aptt {
+    margin-top: 4rem;
+    width: 100%;
+  }
+  .info h2 {
+    margin-top: 1rem;
+    width: 100%;
+    text-align: center;
+  }
+  .footer {
+    width: 100%;
+  }
+  .end h3 {
+    text-indent: -9999px;
+    line-height: 0;
+  }
+  .end {
+    flex-direction: column;
+  }
+  .logo h3 {
+    text-indent: -9999px;
+    line-height: 0;
+  }
+  .nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .nav li {
+    font-size: 0.5rem;
+    margin: 0.5rem;
+  }
