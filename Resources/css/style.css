@@ -22,9 +22,11 @@
   justify-content: space-between;
 }
 .caption {
+  display: flex;
+  align-items: flex-end;
   background-color: white;
   margin-top: 10rem;
-  margin-left: 575px;
+  margin-right: -516px;
 }
 .caption h1 {
   line-height: 1.2rem;
@@ -162,4 +164,34 @@
 }
 .end h3 {
   font-family: Helvetica;
+}
+
+@media only screen and (max-width: 1024px) {
+  .header {
+    width: 100%;
+    margin-top: 0rem;
+  }
+  .top {
+    height: 22rem;
+    align-items: flex-end;
+  }
+  .caption {
+    display: flex;
+    margin-top: 5rem;
+    margin-right: 2rem;
+    margin-left: 0rem;
+  }
+  .caption h1 {
+    font-size: 1.33rem;
+    padding: 0.75rem 4rem;
+  }
+  .services {
+    width: 100%;
+  }
+  .info {
+    width: 100%;
+  }
+  .footer {
+    width: 100%;
+  }
 }
